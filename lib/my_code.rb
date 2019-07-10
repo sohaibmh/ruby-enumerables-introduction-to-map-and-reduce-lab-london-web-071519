@@ -23,3 +23,8 @@ end
 def reduce_to_all_true(array)
   array.reduce{|e| !!e}
 end
+
+
+def reduce_to_any_true(array)
+  array.reduce{|e| !!e}
+end
