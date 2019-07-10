@@ -26,5 +26,5 @@ end
 
 
 def reduce_to_any_true(array)
-  array.reduce{|e, f| e or !f}
+  array.reduce{|e, f| e or f or !e or !f}
 end
