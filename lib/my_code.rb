@@ -26,5 +26,5 @@ end
 
 
 def reduce_to_any_true(array)
-  array.reduce{|e| !!e}
+  array.reduce{|e| !e}
 end
